@@ -1,0 +1,11 @@
+a. //create directory
+$ mkdir Final_no2
+
+b. // create empty .txt file
+$ touch ROBOT_CLASS.txt
+
+c. //Upload selected branch to remote repo
+$ git remote add origin https://github.com/robot-class/final.git
+$ git switch -c robot-dev 
+$ git push origin robot-dev
+
